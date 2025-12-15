@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'fontawesome';
+  src: url('fonts/icomoon.eot?5kp7k4');
+  src: url('fonts/icomoon.eot?5kp7k4#iefix') format('embedded-opentype'),
+       url('fonts/icomoon.ttf?5kp7k4') format('truetype'),
+       url('fonts/icomoon.woff?5kp7k4') format('woff'),
+       url('fonts/icomoon.svg?5kp7k4#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.fa, .fas, .far, .fab, .fa-solid, .fa-brands,
+[class^="fa-"], [class*=" fa-"] {
+  font-family: 'fontawesome' !important;
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-search:before, .fa-magnifying-glass:before { content: "\f002"; }
+.fa-user:before { content: "\f007"; }
+.fa-times:before, .fa-close:before, .fa-xmark:before { content: "\f00d"; }
+.fa-home:before, .fa-house:before { content: "\f015"; }
+.fa-check-square:before, .fa-square-check:before { content: "\f046"; }
+.fa-check-circle:before, .fa-circle-check:before { content: "\f058"; }
+.fa-share:before { content: "\f064"; }
+.fa-exclamation-triangle:before, .fa-triangle-exclamation:before { content: "\f071"; }
+.fa-folder-open:before { content: "\f07c"; }
+.fa-facebook:before, .fa-facebook-f:before { content: "\f09a"; }
+.fa-bars:before { content: "\f0c9"; }
+.fa-caret-down:before { content: "\f0d7"; }
+.fa-sort:before { content: "\f0dc"; }
+.fa-reply:before { content: "\f112"; }
+.fa-calendar:before, .fa-calendar-days:before, .fa-calendar-o:before { content: "\f133"; }
+.fa-youtube:before, .fa-youtube-play:before { content: "\f16a"; }
+.fa-instagram:before { content: "\f16d"; }
+.fa-share-alt:before, .fa-share-nodes:before { content: "\f1e0"; }
+.fa-at:before { content: "\f1fa"; }
+.fa-whatsapp:before { content: "\f232"; }
+.fa-telegram:before { content: "\f2c6"; }
+.fa-x-twitter:before { content: "\e901"; }
